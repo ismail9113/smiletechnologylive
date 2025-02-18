@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+nav {
+    background-color: rgb(223, 224, 229);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.header h1 {
+    font-size: 6.59vw;
+}
+
+nav p {
+    font-size: 2.59vw;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    padding: 14px;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* main ke under ke left side ka style  */
+.main .main-left p {
+
+    gap: 7px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2vw;
+
+
+}
+
+.main .main-left h5 {
+    font-size: 3vw;
+}
+
+.main .main-left p img {
+    width: 2vw;
+
+}
+
+/* main ke under ke center ka style  */
+.main .main-center img {
+    width: 28vw;
+
+}
+
+/* main ke under ke right side ka style  */
+.main .main-right p {
+
+    gap: 7px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 2vw;
+
+
+}
+
+.main .main-right h5 {
+    font-size: 3vw;
+}
+
+.main .main-right p img {
+    width: 2vw;
+
+}
+
+/* table ka style start*/
+.table {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* .table .table-left {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+} */
+.table .table-left img {
+    width: 40vw;
+}
+
+.table .table-left h2 {
+    padding: 7px;
+    font-size: 2.5vw;
+    width: 14vw;
+}
+
+
+.table .table-right {
+    margin-top: 22px;
+    background-color: #f0f0f0;
+    padding: 20px 11px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.table .table-right h3 {
+    font-size: 2vw;
+    padding: 1.2vw;
+}
+
+/* work-process style start  */
+.work-pro-up {
+    margin: auto;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11vw;
+    background-color: antiquewhite;
+}
+
+.work-pro-up img {
+    margin: auto;
+    width: 50%;
+    height: 9vw;
+}
+
+.work-pro-down .para {
+    padding: 2vw;
+    /* width: 24vw; */
+    font-size: 4vw;
+    text-align: center;
+    margin: auto;
+}
+
+/* work-pro-con style start  */
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+    margin: auto;
+    padding: 2vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+/* contact from */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contact .contact-img {
+    background-color: black;
+}
+
+.contact .contact-img img {
+
+    width: 40vw;
+    height: 21vw;
+}
+
+.contact-up {
+    width: 50vw;
+    background-color: #e0dfdb;
+}
+
+.contact .contact-img h2 {
+    padding: 4vw;
+    color: white;
+}
+
+.from-style {
+    padding: 2vw;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    /* आइकॉन को एक रो में लाने के लिए */
+    justify-content: center;
+    /* सेंटर में लाने के लिए */
+    gap: 10px;
+    /* आइकॉन के बीच गैप के लिए */
+    margin-top: 5px;
+}
+
+/* service style start  */
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .service-right img {
+    padding: 4vw;
+    width: 50vw;
+}
+
+.service .left-service .service-table-left {
+    /* margin-top: 22px; */
+    background-color: #f0f0f0;
+    padding: 20px 11px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.service .left-service .service-table-left h3 {
+
+    font-size: 2vw;
+    padding: 1.2vw;
+
+}
